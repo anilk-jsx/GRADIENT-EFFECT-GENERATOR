@@ -3,6 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@media (max-width: 450px){
+    html{
+        font-size: 0.9rem;
+    }
+}
 html, body {
     overflow-x: hidden;
 }
@@ -26,11 +31,10 @@ body{
     flex-direction: column;
 }
 .choose{
-    width: 100%;
+    width: 20rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
 }
 button {
     height: 3.3rem;
