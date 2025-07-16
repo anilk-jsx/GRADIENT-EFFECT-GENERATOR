@@ -35,6 +35,6 @@ btn2.addEventListener('click',(event)=>{
 });
 
 copyCode.addEventListener('click', ()=>{
-    navigator.clipboard.writeText(copyCode.value);
+    navigator.clipboard.writeText(copyCode.innerText);
     alert("code is copied to clipboard");
 });
